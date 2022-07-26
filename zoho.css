@@ -1,0 +1,279 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+.topbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    background-image: linear-gradient(to right, #20448c , #1578a7 );
+    color: white;
+}
+.logo{
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+}
+.firstline{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+    font-weight: bolder;
+    color: white;
+    margin-top: -30px;
+}
+.secondline{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: white;
+    margin-bottom: 65px;
+    margin-top: -40px;
+}
+.topright {
+    margin-left : 90%;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 240, 240);
+    /* text-decoration: none; */
+}
+.navcontents{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    border-right:1px solid gray;
+    width: 200px;
+    height: 60px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgb(46, 46, 46);
+}
+.tag{
+    text-decoration: none;
+    color: black;
+}
+.home{
+    margin-left:150px;
+    background-color: #2b88e5;
+    color: antiquewhite;
+
+}
+.home:hover{
+    color: black;
+}
+.navcontents:hover{
+    background-color: rgb(225, 216, 216);
+}
+.stickers{
+    width:40px;
+    height:40px;
+    margin: 5px;
+}
+.phase2{
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(58, 55, 55)
+}
+.highlight{
+    display: inline-block;
+    background-color: orange;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.glossary{
+    width: 300px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:16px;
+    padding: 30px;
+    /* padding-left: 10px; */
+    border: 1px solid rgb(238, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+
+}
+.inlinecontents{
+    text-align:center;
+    color: rgb(53, 52, 52);
+    font-size: 15px;
+}
+.button{
+    width: 130px;
+    height: 40px;
+    color: rgb(12, 208, 247);
+    background-color: white;
+    border: 1px solid rgb(12, 208, 247);
+    font-weight: bolder;
+    
+    
+}
+.glossary:hover .button{
+    color:white;
+    background-color:rgb(12, 208, 247); 
+    
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.phase4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    color: rgb(52, 52, 52);
+    
+    border: 2px solid  rgb(238, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    font-weight:500;
+    
+}
+.button1{
+    width: 120px;
+    height: 35px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(14, 155, 184);
+    border: 3px solid rgb(14, 155, 184);
+    border-radius: 3px;
+    margin: 10px;
+}
+.phase5{
+    /* width: 75%; */
+    /* height: 700px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    padding: 50px;
+    border-top: 2px solid rgb(238, 235, 235);
+    
+}
+.subdiv{
+    margin-top:90px; 
+    margin-left: 50px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #494d78;
+    padding: 30px
+}
+
+.appstore{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.button3{
+    font-family:'Open Sans', sans-serif;
+    color: rgb(232, 231, 230);
+    text-align: left;
+}
+.button4{
+    font-family: 'Playfair Display', serif;
+    color: rgb(232, 231, 230);
+    text-align: left;
+}
+.phase6{
+    height: 200px;
+    background-color: #27273c;
+    color: white;
+    font-family: 'Rubik', sans-serif;                                              
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.pink{
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -90px;
+    margin-left: -40px;
+    opacity: 60%;
+}
+.button5{
+    width: 170px;
+    height: 40px;
+    color: white;
+    background-color: rgb(14, 155, 184);
+    border: 3px solid rgb(14, 155, 184);
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+}
+.button5:hover{
+    background-color: rgb(17, 129, 151);
+    border: 3px solid rgb(17, 129, 151);
+}
+.FAQ{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid rgb(238, 235, 235);
+    padding-right: 50px;
+    
+}
+.timeline{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    /* border-left: 1px solid black; */
+    
+}
+.b2{
+    width: 150px;
+    height: 35px;
+}
+.phase7{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.button:hover{
+    background-color: rgb(14, 155, 184);
+    color:white;
+}
